@@ -361,3 +361,13 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+# check7z build output
+/build/
+/out/
+
+
+# 本地环境变量与日志（禁止提交）
+.env
+.env.*
+*.log
+
